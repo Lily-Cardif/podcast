@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap');
+  @import "variables";
+  @import "header";
+  @import "aside";
+  @import "main";
+  @import "nosotros";
+  @import "entrevistas";
+  @import "topicos";
+  @import "footer";
+  

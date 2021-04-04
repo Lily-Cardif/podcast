@@ -1,0 +1,147 @@
+/* MAIN*/
+
+@media (min-width: 320px){
+    main{
+        position: relative;
+        height: 1203.5px;
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        margin: 0;
+        padding: 0;
+        
+        .arriba {
+            position: absolute;
+            width: 100%;
+            height: 32px;
+        }
+        
+        h2{
+                color: white;
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 36px;
+                padding-top: 64px;
+                padding-left: 16px;
+                padding-bottom: 21px;
+                margin: 0;
+            }
+            
+            div{
+                margin: 0;
+                margin-bottom: 106.5px;
+                padding: 0;
+                display: grid;
+                grid-template-columns: 298px;
+                grid-template-rows: 225px 225px 225px 225px;
+                justify-content: center;
+                grid-row-gap: 11px;
+
+                #uno{
+                    width: 100%;
+                    height:232px;
+                    grid-column: 1/2;
+                    grid-row: 1/2;
+                    border:0px;
+                }
+                #dos{
+                    width: 100%;
+                    height: 232px;
+                    grid-column: 1/2;
+                    grid-row: 2/3;
+                    border:0px;
+                }
+                #tres{
+                    width: 100%;
+                    height: 232px;
+                    grid-column: 1/2;
+                    grid-row: 3/4;
+                    border:0px;
+                }
+
+                #cuatro{
+                    width: 100%;
+                    height: 232px;
+                    grid-column: 1/2;
+                    grid-row: 4/5;
+                    border:0px;
+                }
+        }
+        .abajo{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 10vw;
+}
+}
+}
+
+@media (min-width: 1024px){
+    main{
+        width: 100%;
+        height: 1042.6px;
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        margin: 0;
+        padding: 0;
+        
+        .arriba {
+            position: absolute;
+            width: 100%;
+            height: 124px;
+        }
+        
+        h2{
+            width: 209px;
+            height: 62px;
+            color: white;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 48px;
+            padding-top: 126px;
+            padding-left: 200px;
+            padding-bottom: 26px;
+            margin: 0;
+        }
+        
+        div{
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 584px 584px;
+            grid-template-rows: 232px 232px;
+            grid-gap: 72px;
+            margin-top: 50px;
+            
+            #uno{
+                width: 100%;
+                height:232px;
+                grid-column: 1/2;
+                grid-row: 1/2;
+                align-self: stretch;
+                justify-self: stretch;
+                }
+                #dos{
+                    width: 100%;
+                    height: 232px;
+                    grid-column: 2/3;
+                    grid-row: 1/2;
+                    align-self: stretch;
+                    justify-self: stretch;
+                }
+                #tres{
+                    width: 100%;
+                    height: 232px;
+                    grid-column: 1/2;
+                    grid-row: 2/3;
+                    align-self: stretch;
+                    justify-self: stretch;
+                }
+
+                #cuatro{
+                    width: 100%;
+                    height: auto;
+                    grid-column: 2/3;
+                    grid-row: 2/3;
+                    align-self: stretch;
+                    justify-self: stretch;
+                }
+            }
+            
+    }
+}

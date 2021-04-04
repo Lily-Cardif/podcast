@@ -1,0 +1,44 @@
+/* ENTREVISTAS*/
+
+@media (min-width: 320px){
+#entrevistas{
+    
+    h2{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: $primary;
+        margin: 16px;
+        margin-top: 45px;
+        margin-bottom: 14px;
+        padding: 0;
+    }
+    
+    img{
+        display: block;
+        width: 100%;
+    }
+}
+}
+
+@media (min-width: 1024px){
+    #entrevistas{
+        display: flex;
+        flex-flow: row wrap;
+    
+        h2{
+            width: 100%;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 48px;
+            color: $primary;
+            margin: 0;
+            margin-left: 200px;
+            margin-bottom: 36px;
+            padding: 0;
+        }
+        
+        img{
+            width:33%;
+            height: 50%;
+            }
+        }
+    }
